@@ -81,17 +81,27 @@ button {
 
 .quote-block {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+}
+
+.quote-quoted-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
 }
 
 .quote {
-    text-align: center;
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
 }
 
 .quoted {
-    text-align: center;
+    font-weight: bold;
+    align-self: flex-end;
 }
 
 .call-to-action-block {
