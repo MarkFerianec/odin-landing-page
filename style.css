@@ -42,6 +42,41 @@ li,
 
 .under-header {
     display: flex;
+    padding-top: 75px;
+    padding-bottom: 150px;
+    justify-content: center;
+}
+
+.under-header-left {
+    max-width: 500px;
+}
+
+.secondary-text {
+    max-width: 400px;
+    padding-bottom: 10px;
+}
+
+.under-header-left button {
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color:#3882f6;
+    font-weight: bold;
+}
+
+.image-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    width: 500px;
+    height: 250px;
+}
+
+.image-placeholder-text {
+    color:#F9faf8;
 }
 
 .random-information {
