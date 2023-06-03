@@ -27,6 +27,11 @@ li.header-logo {
     background-color: #1F2937;
 }
 
+.header {
+    padding-right: 130px;
+    padding-left: 90px;
+}
+
 .header-logo {
     color: #F9faf8;
     font-size: 24px;
