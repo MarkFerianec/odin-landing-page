@@ -44,11 +44,17 @@ li,
     display: flex;
 }
 
+.random-information {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
 .random-information-heading {
     text-align: center;
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    padding-bottom: 40px;
 }
 
 button {
@@ -60,23 +66,27 @@ button {
 .section-2-image,
 .section-3-image,
 .section-4-image {
-    width: 100px;
-    height: 100px;
-    border: 1px solid;
+    width: 150x; 
+    height: 150px;
+    border: 3px solid;
     border-radius: 16px;
+    color: #3882f6;
 }
 
 .section-1-subtext,
 .section-2-subtext,
 .section-3-subtext,
 .section-4-subtext {
-    max-width: 100px;
+    max-width: 150px;
+    color: #1F2937;
+    text-align: center;
+    padding-top: 5px;
 }
 
 .sections {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 35px;
 }
 
 .quote-block {
